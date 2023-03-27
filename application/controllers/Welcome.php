@@ -6,7 +6,6 @@ class Welcome extends MY_Controller {
     public function __construct()
     {
         parent::__construct();
-        echo "조수민을 상속 받았습니다.";
     }
 
     /**
