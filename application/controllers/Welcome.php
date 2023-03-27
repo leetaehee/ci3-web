@@ -1,9 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Welcome extends MY_Controller {
 
-	/**
+    public function __construct()
+    {
+        parent::__construct();
+        echo "조수민을 상속 받았습니다.";
+    }
+
+    /**
 	 * Index Page for this controller.
 	 *
 	 * Maps to the following URL
