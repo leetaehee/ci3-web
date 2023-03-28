@@ -25,7 +25,6 @@ class Welcome extends MY_Controller {
 	 */
 	public function index()
 	{
-        echo "test를 실행합니다. git pull를 하는 사람이 지우세요!";
 		$this->load->view('welcome_message');
 	}
 }
