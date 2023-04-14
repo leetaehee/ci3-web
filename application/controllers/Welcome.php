@@ -6,6 +6,8 @@ class Welcome extends MY_Controller {
     public function __construct()
     {
         parent::__construct();
+
+		$this->load->database();
     }
 
     /**
@@ -25,6 +27,15 @@ class Welcome extends MY_Controller {
 	 */
 	public function index()
 	{
+		$query = $this->db->query("
+			select * from emoticon
+		");
+
+		$a = $query->row_array();
+
+		print_r($a);
+
+
 		$this->load->view('welcome_message');
 	}
 }
