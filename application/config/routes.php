@@ -55,3 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['web/b_in'] = 'Web/b';
 $route['web/c_in'] = 'Web/c';
+$route['web/d_in'] = 'Web/d';

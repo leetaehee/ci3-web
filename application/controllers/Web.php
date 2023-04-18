@@ -21,4 +21,9 @@ class Web extends MY_Controller
     {
         echo "c()";
     }
+
+    public function d()
+    {
+        echo "11";
+    }
 }
